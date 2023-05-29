@@ -10,7 +10,7 @@
 int get_proportion(const char *format, int *i)
 {
 	int curr_i = *i + 1;
-	int size = 0;
+	int proportion = 0;
 
 	if (format[curr_i] == 'l')
 		proportion = S_LONG;
