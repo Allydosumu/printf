@@ -34,4 +34,3 @@ int get_span(const char *format, int *i, va_list list)
 
 	return (span);
 }
-
