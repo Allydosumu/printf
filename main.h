@@ -8,10 +8,10 @@
 #define BUFF_SIZE 1024
 
 int _printf(const char *format, ...);
-int handle_output(const char *fmt, int *i,
+int handle_output(const char *mat, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
-/* FLAG */
+/* FLAGS */
 #define F_MINUS 1
 #define F_PLUS 2
 #define F_ZERO 4
