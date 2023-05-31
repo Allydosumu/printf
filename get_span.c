@@ -18,6 +18,7 @@ int get_span(const char *format, int *i, va_list list)
 		if (is_digit(format[curr_i]))
 		{
 			span *= 10;
+
 			span += format[curr_i] - '0';
 		}
 		else if (format[curr_i] == '*')

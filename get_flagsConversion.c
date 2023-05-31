@@ -18,6 +18,7 @@ int get_flagsConversion(const char *format, int *i)
 	for (curr_i = *i + 1; format[curr_i] != '\0'; curr_i++)
 	{
 		for (b = 0; FLAGS_CH[b] != '\0'; b++)
+			
 			if (format[curr_i] == FLAGS_CH[b])
 			{
 				flags |= FLAGS_ARR[b];

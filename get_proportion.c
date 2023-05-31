@@ -14,6 +14,7 @@ int get_proportion(const char *format, int *i)
 
 	if (format[curr_i] == 'l')
 		proportion = S_LONG;
+	
 	else if (format[curr_i] == 'h')
 		proportion = S_SHORT;
 
